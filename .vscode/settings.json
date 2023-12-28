@@ -1,6 +1,6 @@
 {
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true,
+		"source.fixAll": "explicit"
 	},
 	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
 	"[typescript]": {
@@ -21,4 +21,5 @@
 		".yarn": true,
 		"node_modules": true,
 	},
+	"typescript.tsdk": "node_modules/typescript/lib",
 }
